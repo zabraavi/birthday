@@ -1,2 +1,13 @@
-# birthday
-To wish birthdays
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. BIRTHDAY.
+       ENVIRONMENT DIVISION.
+       DATA DIVISION.
+       WORKING-STORAGE SECTION.
+       01  YOURNAME PIC X(16).
+        
+       PROCEDURE DIVISION.
+           DISPLAY "HEY! ENTER YOUR NAME BUD.".
+          ACCEPT YOURNAME.
+           DISPLAY "HAPPY BIRTHDAY " YOURNAME "FROM AVI!!"
+           STOP RUN.
+           
